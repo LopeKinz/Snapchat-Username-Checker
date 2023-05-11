@@ -22,9 +22,7 @@ class Checker:
         )
         l3 = random.choice("abcdefghijklmnopqrstuvwxyz")
 
-        username = f"{l1}{l2}{l3}"
-
-        return username
+        return f"{l1}{l2}{l3}"
 
     def webhook(self, username) -> None:
         """_summary_
